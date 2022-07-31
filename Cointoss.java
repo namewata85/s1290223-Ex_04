@@ -13,7 +13,7 @@ public class Cointoss{
 
         System.out.println("Tossing a coin...");
         for(int i=1;i<4;i++){
-            System.out.print("Round"+ i +":");
+            System.out.print("Round "+ i +":");
             double coin = Math.floor(Math.random() * 2) + 1 ;
             if(coin == 1){
                 System.out.println("Heads");
@@ -26,10 +26,10 @@ public class Cointoss{
         }
         System.out.println("Heads: " + countH +", Tails: " + countT);
         if(countH > countT){
-            System.out.println("you won!");
+            System.out.println(name +" won!");
         }
         else{
-            System.out.println("you lose!");
+            System.out.println(name +" lose!");
         }
     }
 }
